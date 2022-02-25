@@ -10,6 +10,7 @@ public class Conditionals : MonoBehaviour
     int b = 30;
     int c = 40;
     int time = 20;
+    string name = "Bob";
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +44,14 @@ public class Conditionals : MonoBehaviour
         }
         string result = (time < 18) ? "Good day." : "Good evening.";
         Debug.Log(result);
+        if (20 > 18)
+        {
+        Debug.Log("20 is greater than 18.");
+        }
+        if ("Bob" == name)
+        {
+        Debug.Log("Bob is in the variable name.");
+        }
     }
 
     // Update is called once per frame
